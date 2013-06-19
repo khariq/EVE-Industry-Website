@@ -173,8 +173,13 @@ div.tabContainer div.tabContents
 	border-top-style: solid;
 	border-top-width: 1px;
 	box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.0470588) 0px 1px 2px 0px;
-	color: rgb(51, 51, 51);
-	
+	color: rgb(51, 51, 51);	
+}
+
+div.tabContents
+{
+	padding: 5px;
+	background-color: #fafafa;
 }
 
 table
@@ -216,5 +221,5 @@ body
 	font-size: 13px;
 	font-style: normal;
 	font-weight: normal;
-	
+	background-color: #eaeaea;
 }	

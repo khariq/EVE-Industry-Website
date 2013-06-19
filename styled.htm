@@ -4,6 +4,7 @@
     <title>Untitled Page</title>
 
 	<link rel="Stylesheet" href="css/main.css" />
+	<link rel="Stylesheet" href="css/tableLayout.css" />
 
 </head>
 
@@ -23,68 +24,91 @@
 		</ul>
 	
 		<div class="tabContents">
-			
-			<table cellspacing="0" cellpadding="3">
-				<tr>
-					<th>
-						Item
-					</th>
-					<th>
-						Location
-					</th>
-					<th style="text-align: right;">
-						Quantity
-					</th>
-					<th style="text-align: right;">
-						Est. Value
-					</th>
-					<th style="text-align: right;">
-						m3
-					</th>
-				</tr>
-				<tr>
-					<td>Tritanium</td>
-					<td>NOL-M9</td>
-					<td class='numeric'>1,342,312</td>
-					<td class='numeric'>6,123,165</td>
-					<td class='numeric'>13,423 m3</td>
-				</tr>
-				<tr class="alt">
-					<td>Tritanium</td>
-					<td>NOL-M9</td>
-					<td class='numeric'>1,342,312</td>
-					<td class='numeric'>6,123,165</td>
-					<td class='numeric'>13,423 m3</td>
-				</tr>
-				<tr>
-					<td>Tritanium</td>
-					<td>NOL-M9</td>
-					<td class='numeric'>1,342,312</td>
-					<td class='numeric'>6,123,165</td>
-					<td class='numeric'>13,423 m3</td>
-				</tr>
-				<tr class="alt">
-					<td>Tritanium</td>
-					<td>NOL-M9</td>
-					<td class='numeric'>1,342,312</td>
-					<td class='numeric'>6,123,165</td>
-					<td class='numeric'>13,423 m3</td>
-				</tr>
-				<tr>
-					<td>Tritanium</td>
-					<td>NOL-M9</td>
-					<td class='numeric'>1,342,312</td>
-					<td class='numeric'>6,123,165</td>
-					<td class='numeric'>13,423 m3</td>
-				</tr>
-				<tr class="alt">
-					<td>Tritanium</td>
-					<td>NOL-M9</td>
-					<td class='numeric'>1,342,312</td>
-					<td class='numeric'>6,123,165</td>
-					<td class='numeric'>13,423 m3</td>
-				</tr>
-			</table>
+			<div class="row">
+				<div class="columns">
+					<table cellspacing="0" cellpadding="3">
+						<tr>
+							<th>
+								Item
+							</th>
+							<th>
+								Location
+							</th>
+							<th style="text-align: right;">
+								Quantity
+							</th>
+							<th style="text-align: right;">
+								Est. Value
+							</th>
+							<th style="text-align: right;">
+								m3
+							</th>
+						</tr>
+						<tr>
+							<td>Tritanium</td>
+							<td>NOL-M9</td>
+							<td class='numeric'>1,342,312</td>
+							<td class='numeric'>6,123,165</td>
+							<td class='numeric'>13,423 m3</td>
+						</tr>
+						<tr class="alt">
+							<td>Tritanium</td>
+							<td>NOL-M9</td>
+							<td class='numeric'>1,342,312</td>
+							<td class='numeric'>6,123,165</td>
+							<td class='numeric'>13,423 m3</td>
+						</tr>
+						<tr>
+							<td>Tritanium</td>
+							<td>NOL-M9</td>
+							<td class='numeric'>1,342,312</td>
+							<td class='numeric'>6,123,165</td>
+							<td class='numeric'>13,423 m3</td>
+						</tr>
+						<tr class="alt">
+							<td>Tritanium</td>
+							<td>NOL-M9</td>
+							<td class='numeric'>1,342,312</td>
+							<td class='numeric'>6,123,165</td>
+							<td class='numeric'>13,423 m3</td>
+						</tr>
+						<tr>
+							<td>Tritanium</td>
+							<td>NOL-M9</td>
+							<td class='numeric'>1,342,312</td>
+							<td class='numeric'>6,123,165</td>
+							<td class='numeric'>13,423 m3</td>
+						</tr>
+						<tr class="alt">
+							<td>Tritanium</td>
+							<td>NOL-M9</td>
+							<td class='numeric'>1,342,312</td>
+							<td class='numeric'>6,123,165</td>
+							<td class='numeric'>13,423 m3</td>
+						</tr>
+					</table>
+				</div>
+				<div class="columns">
+					<fieldset>
+						<legend>Add new item</legend>
+						<div class="row">
+						<div class="columns">
+							<span class="control-label">Item</span>
+							<span class="control-label">Quantity</span>
+							<span class="control-label">Cost</span>
+							<span class="control-label">Current location</span>
+						</div>
+						
+						<div class="columns">
+							<span class="control"><input type="text" id="itemName" /></span>
+							<span class="control"><input type="text" id="itemQuantity" /></span>
+							<span class="control"><input type="text" id="itemCost"/></span>
+							<span class="control"><input type="text" id="itemLocation"/></span>
+						</div>
+						</div>
+					</fieldset>
+				</div>
+			</div>
 
 		</div>
 
