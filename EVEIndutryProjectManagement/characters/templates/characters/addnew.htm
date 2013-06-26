@@ -1,0 +1,15 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>IPM - Add New Account</title>
+</head>
+<body>
+	<form action="{% url 'characters:saveaccount' %}" method="post">
+		{% csrf_token %}
+		Account Name: <input type="text" name="accountName" /><br />
+		Key ID: <input type="text" name="keyID" /><br />
+		Verification Code: <input type="text" name="vCode" /><br />
+		<input type="submit" value="Add Account" />
+	</form>
+</body>
+</html>

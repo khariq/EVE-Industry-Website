@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>IPM - Registered Characters</title>
+</head>
+<body>
+
+	<div id="characters">
+	{% if all_accounts %}
+		{% for account in all_accounts %}
+		<details>
+			<summary>{{account.accountName}}</summary>
+			<table>
+				<tr>
+					<th>Key ID</th>
+					<th>Verification Code</th>
+				</tr>
+				<tr>
+					<td>{{account.keyID}}</td>
+					<td>{{account.verificationCode}}</td>
+				</tr>
+			</table>
+			<table>
+				<tr>
+					<th>Character ID</th>
+					<th>Character Name</th>
+				</tr>
+				{% for character in account.character_set.all %}
+				<tr>
+					<td>{{character.characterID}}</td>
+					<td>{{character.characterName}}</td>
+				</tr>
+				{% endfor %}
+			</table>
+		</details>
+		<br />
+		{% endfor %}
+
+	{% endif %}
+	</div>
+	<a href="{% url 'characters:addnew' %}">Add New Account</a>
+</body>
+</html>
