@@ -16,3 +16,7 @@ test.context = eveapi.Context(_keyID=keyID, _verificationCode=verificationCode)
 
 print test.MakeRequestURL("AccountData.Characters")
 print test.Characters()
+
+test = eveapi.CharacterData()
+test.context = eveapi.Context(_keyID=keyID, _verificationCode=verificationCode)
+print test.AssetList("1281392320")
