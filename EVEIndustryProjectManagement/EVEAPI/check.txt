@@ -1,0 +1,28 @@
+((34L, 'Tritanium', 49744L), (35L, 'Pyerite', 25977L), (36L, 'Mexallon', 8950L), (37L, 'Isogen', 4475L), (39L, 'Zydrine', 299L), (40L, 'Megacyte', 55L), (2006L, 'Omen', 1L), (3828L, 'Construction Blocks', 100L), (11399L, 'Morphite', 100L), (11478L, 'R.A.M.- Starship Tech', 12L), (11532L, 'Fusion Thruster', 50L), (11537L, 'Radar Sensor Cluster', 265L), (11539L, 'Nanoelectrical Microprocessor', 900L), (11543L, 'Tungsten Carbide Armor Plate', 3750L), (11549L, 'Antimatter Reactor Unit', 30L), (11554L, 'Tesseract Capacitor Unit', 300L), (11557L, 'Linear Shield Emitter', 300L))
+Appending Tritanium
+Appending Pyerite
+Appending Mexallon
+Appending Isogen
+Appending Zydrine
+Appending Megacyte
+Appending Omen
+Omen is player buildable
+Appending Construction Blocks
+Appending Morphite
+Appending R.A.M.- Starship Tech
+R.A.M.- Starship Tech is player buildable
+Appending Fusion Thruster
+Fusion Thruster is player buildable
+Appending Radar Sensor Cluster
+Radar Sensor Cluster is player buildable
+Appending Nanoelectrical Microprocessor
+Nanoelectrical Microprocessor is player buildable
+Appending Tungsten Carbide Armor Plate
+Tungsten Carbide Armor Plate is player buildable
+Appending Antimatter Reactor Unit
+Antimatter Reactor Unit is player buildable
+Appending Tesseract Capacitor Unit
+Tesseract Capacitor Unit is player buildable
+Appending Linear Shield Emitter
+Linear Shield Emitter is player buildable
+[[34L, 'Tritanium', 49744L], [35L, 'Pyerite', 25977L], [36L, 'Mexallon', 8950L], [37L, 'Isogen', 4475L], [39L, 'Zydrine', 299L], [40L, 'Megacyte', 55L], [2006L, 'Omen', 1L, [(34L, 'Tritanium', 202522L), (34L, 'Tritanium', 307478L), (35L, 'Pyerite', 77204L), (35L, 'Pyerite', 42796L), (36L, 'Mexallon', 25566L), (36L, 'Mexallon', 8434L), (37L, 'Isogen', 4250L), (37L, 'Isogen', 5350L), (38L, 'Nocxium', 1324L), (38L, 'Nocxium', 1276L), (39L, 'Zydrine', 314L), (39L, 'Zydrine', 276L), (40L, 'Megacyte', 70L), (40L, 'Megacyte', 115L)]], [3828L, 'Construction Blocks', 100L], [11399L, 'Morphite', 100L], [11478L, 'R.A.M.- Starship Tech', 12L, [(34L, 'Tritanium', 500L), (35L, 'Pyerite', 400L), (36L, 'Mexallon', 200L), (37L, 'Isogen', 74L), (38L, 'Nocxium', 32L)]], [11532L, 'Fusion Thruster', 50L, [(16672L, 'Tungsten Carbide', 12L), (16680L, 'Phenolic Composites', 3L), (16683L, 'Ferrogel', 1L)]], [11537L, 'Radar Sensor Cluster', 265L, [(16672L, 'Tungsten Carbide', 20L), (16681L, 'Nanotransistors', 1L), (16682L, 'Hypersynaptic Fibers', 2L)]], [11539L, 'Nanoelectrical Microprocessor', 900L, [(16672L, 'Tungsten Carbide', 15L), (16680L, 'Phenolic Composites', 5L), (16681L, 'Nanotransistors', 2L), (33360L, 'Terahertz Metamaterials', 2L)]], [11543L, 'Tungsten Carbide Armor Plate', 3750L, [(16672L, 'Tungsten Carbide', 40L), (16678L, 'Sylramic Fibers', 10L)]], [11549L, 'Antimatter Reactor Unit', 30L, [(16672L, 'Tungsten Carbide', 8L), (17317L, 'Fermionic Condensates', 2L)]], [11554L, 'Tesseract Capacitor Unit', 300L, [(16672L, 'Tungsten Carbide', 24L), (16679L, 'Fullerides', 10L), (16681L, 'Nanotransistors', 1L), (33360L, 'Terahertz Metamaterials', 2L)]], [11557L, 'Linear Shield Emitter', 300L, [(16672L, 'Tungsten Carbide', 20L), (16678L, 'Sylramic Fibers', 8L), (16683L, 'Ferrogel', 1L)]]]

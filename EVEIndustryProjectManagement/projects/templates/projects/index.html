@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>IPM - Project Index</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+</head>
+<body>
+
+    <h4>Project Index</h4>
+
+    {% if project_list %}
+    <ul>
+        {% for project in project_list %}
+            <li><a href="{% url 'projects:detail' project.id %}">{{ project.name }}</a>
+                <ul>
+                    {% for product in project.product_set.all %}
+                    <li>{{ product.quantity }} {{ product.getTypeName }}</li>
+                    {% endfor %}
+                </ul>
+            </li>
+        {% endfor %}
+    </ul>
+    {% else %}
+        <p>No projects currently running</p>
+    {% endif %}
+
+    <a href="{% url 'projects:addnew' %}">Add New Project</a>
+
+</body>

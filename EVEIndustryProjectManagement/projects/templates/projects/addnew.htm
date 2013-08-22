@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>IPM - Start New Project</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript" language="javascript">
+
+        var projectGoalsDictionary = [];
+
+        function ui_addItemOnClick()
+        {
+            items = document.getElementById('buildableItems');
+            index = items.selectedIndex;
+            typeID = items[index].value;
+            addItemToProject(typeID);
+        }
+
+        function addItemToProject(invTypeID)
+        {
+            var found = false;
+            for (var i = 0; i < projectGoalsDictionary.length; i++)
+            {
+                if (projectGoalsDictionary[i][0] == invTypeID)
+                {
+                    projectGoalsDictionary[i][1]++;
+                    found = true;
+                }
+            }
+            if (!found)
+            {
+                newGoal = []
+                newGoal.push(invTypeID);
+                newGoal.push(1);
+                projectGoalsDictionary.push(newGoal);
+            }
+
+            bindProjectGoalsToTable();
+
+            // add item name to table
+        }
+
+        function bindProjectGoalsToTable()
+        {
+
+            var table = $('goalsTable');
+            if (table != null)
+            {
+                // remove all of the tables
+                 $("#goalsTable").find("tr:gt(0)").remove();
+                for (var i = 0; i < projectGoalsDictionary.length; i++)
+                {
+                    if (projectGoalsDictionary[i][1] > 0)
+                        $("#goalsTable tr:last").after(buildRowHTML(i));
+                }
+            }
+            prepareForPost();
+        }
+
+        function updateGoals(invTypeId, delta)
+        {
+            if (delta > 0)
+            {
+                addItemToProject(invTypeId);
+            }
+            else if (delta < 0)
+            {
+                for (var i = 0; i < projectGoalsDictionary.length; i++)
+                {
+                    if (projectGoalsDictionary[i][0] == invTypeId)
+                    {
+                        projectGoalsDictionary[i][1]--;
+                        if (projectGoalsDictionary[i][1] <= 0)
+                            projectGoalsDictionary[i][1] = 0;
+                    }
+                }
+                bindProjectGoalsToTable();
+            }
+            else if (delta == 0)
+            {
+                for (var i = 0; i < projectGoalsDictionary.length; i++)
+                {
+                    if (projectGoalsDictionary[i][0] == invTypeId)
+                    {
+                        projectGoalsDictionary[i][1] = 0;
+                    }
+                }
+                bindProjectGoalsToTable();
+            }
+        }
+
+        function buildRowHTML(index)
+        {
+            invTypeId = projectGoalsDictionary[index][0];
+            var row = "<tr>";
+            // item name
+            row += "<td>";
+            var itemname = $('#buildableItems option[value="' + projectGoalsDictionary[index][0] + '"]').text();
+
+            row += itemname;
+            row += "</td>";
+            // quantity
+            row += "<td>"
+            row += projectGoalsDictionary[index][1];
+            row += "</td>";
+            // spinners
+            row += "<td>";
+            row += "<input type='button' value='+' style='width: 30px;' onclick='updateGoals(" + invTypeId + ", 1);' />";
+            row += "<input type='button' value='-' style='width: 30px;' onclick='updateGoals(" + invTypeId + ", -1);' />";
+            row += "<input type='button' value='Remove from project' onclick='updateGoals(" + invTypeId + ", 0);' />";
+            // delete button
+
+            row += "</td>";
+            row += "</tr>";
+
+            return row;
+        }
+
+        function prepareForPost()
+        {
+            document.getElementById("ui_projectList").value = "";
+            var postValue = "";
+            for (var i = 0; i < projectGoalsDictionary.length; i++)
+            {
+                var value = projectGoalsDictionary[i][0] + ":" + projectGoalsDictionary[i][1] + ";";
+                postValue += value;
+            }
+            document.getElementById("ui_projectList").value = postValue;
+        }
+
+    </script>
+
+</head>
+<body>
+	<form action="{% url 'projects:saveproject' %}" method="post">
+		{% csrf_token %}
+        Select items to add to project:<br/>
+        <select id="buildableItems">
+            {% for item in all_items %}
+                <option value="{{ item.0 }}">{{ item.3 }}</option>
+            {% endfor %}
+        </select>
+
+        <input type="button" value="Add item to project" onclick="ui_addItemOnClick();" />
+
+        <hr/>
+        <h3>Current project goals</h3>
+        <p>Project Name:<br/><input type="text" name="projectName" /></p>
+        <table border="1" style="width: 100%" id="goalsTable">
+            <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th></th>
+            </tr>
+
+        </table>
+        <input type="hidden" id="ui_projectList" name="ui_projectList" />
+        <hr/>
+        <div style="flotat: left; clear: both">
+
+            <input type="submit" value="Create Project" onclick="prepareForPost();" />
+
+        </div>
+
+	</form>
+</body>
+</html>

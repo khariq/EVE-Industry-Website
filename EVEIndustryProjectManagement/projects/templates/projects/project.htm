@@ -1,0 +1,257 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Untitled Page</title>
+	<style type="text/css">
+		body
+		{
+			font-family: Verdana;
+			font-size: 10pt;
+		}
+		table
+		{
+			width: 100%;
+		}
+		
+		th
+		{
+			background-color: #3d85c6;
+			color: White;
+			text-align: left;
+		}
+		
+		th.sectionHeader
+		{
+			text-align: center;
+			text-decoration: underline;
+			font-weight: bold;
+		}
+		
+		td
+		{
+			
+		}
+		
+		td.money
+		{
+			text-align: right;
+		}
+		
+		td.numeric
+		{
+			text-align: right;
+		}
+	</style>
+	
+</head>
+<body>
+
+	<table id="summaryTable">
+		<tr>
+			<th>Project Output</th>
+			<td></td>
+			<th>Jita Buy</th>
+			<td class="money"></td>
+			<th>Production Costs</th>
+			<td class="money"></td>
+		</tr>
+		<tr>
+			<th>Output Quantity</th>
+			<td class="numeric"></td>
+			<th>Staging Sell</th>
+			<td class="money"></td>
+			<th>Import Costs</th>
+			<td class="money"></td>
+		</tr>
+		<tr>
+			<th>Import or Build?</th>
+			<td></td>
+			<th>Projected Profit</th>
+			<td colspan="3" class="money"></td>
+		</tr>
+	</table>
+
+	<hr /> 
+
+	<table id="productionProjections">
+		<tr>
+			<th class="sectionHeader" colspan="100%">Profit/Loss Projections via Production</th>
+		</tr>
+		<tr>
+			<th></th>
+			<th>Item Output</th>
+			<th>Sales Per Unit</th>
+			<th>Projected Revenue</th>
+			<th>Costs</th>
+			<th>Profit</th>
+		</tr>
+		<tr>
+			<th>Projected</th>
+			<td class="numeric"></td>
+			<td class="money"></td>
+			<td class="money"></td>
+			<td class="money"></td>
+			<td class="money"></td>
+		</tr>
+		<tr>
+			<th>Per Unit figures</th>
+			<td class="numeric"></td>
+			<td class="money"></td>
+			<td class="money"></td>
+			<td class="money"></td>
+			<td class="money"></td>
+		</tr>
+		<tr>
+			<th>Projected</th>
+			<td class="numeric"></td>
+			<td class="money"></td>
+			<td class="money"></td>
+			<td class="money"></td>
+			<td class="money"></td>
+		</tr>
+
+	</table>
+
+	<table id="importProjections">
+		<tr>
+			<th class="sectionHeader" colspan="100%">Profit/Loss Projections via Importing</th>
+		</tr>
+		<tr>
+			<th></th>
+			<th>m3</th>
+			<th>Shipping Costs</th>
+			<th>Jita Buy</th>
+			<th>Market Sell</th>
+			<th>Projected Revenue</th>
+			<th>Costs</th>
+			<th>Profit</th>
+		</tr>
+		<tr>
+			<th>Total Project Projections</th>
+			<td class="numeric"></td>
+			<td class="money"></td>
+			<td class="money"></td>
+			<td class="money"></td>
+			<td class="money"></td>
+			<td class="money"></td>
+			<td class="money"></td>
+		</tr>
+		<tr>
+			<th>Per Item Projections</th>
+			<td class="numeric"></td>
+			<td class="money"></td>
+			<td class="money"></td>
+			<td class="money"></td>
+			<td class="money"></td>
+			<td class="money"></td>
+			<td class="money"></td>
+		</tr>
+	</table>
+
+	<table id="costSummary">
+		<tr>
+			<th colspan="4">Cost Summary</th>
+			<th colspan="6">Invention Costs</th>
+		</tr>
+		<tr>
+			<th>Costs</th>
+			<th>Invention</th>
+			<th>Input</th>
+			<th>Quantity</th>
+			<th>On Hand</th>
+			<th>Need to buy</th>
+			<th>Purchase Price</th>
+			<th>Cost Per Invention</th>
+		</tr>
+		<tr>
+			<th>Invention Costs per BPC</th>
+			<td class="money"></td>
+			<th>Attempts</th>
+			<td class="numeric"></td>
+			<td></td>
+			<td class="numeric"></td>
+			<td class="numeric"></td>
+			<td class="numeric"></td>
+			<td class="money"></td>
+			<td class="money"></td>
+		</tr>
+		<tr>
+			<th>Production Material Cost per Run</th>
+			<td class="money"></td>
+			<th>Success</th>
+			<td class="numeric"></td>
+			<td></td>
+			<td class="numeric"></td>
+			<td class="numeric"></td>
+			<td class="numeric"></td>
+			<td class="money"></td>
+			<td class="money"></td>
+		</tr>
+		<tr>
+			<th>Total Cost per Run</th>
+			<td class="money"></td>
+			<th>Actual Attempts</th>
+			<td class="numeric"></td>
+			<td></td>
+			<td class="numeric"></td>
+			<td class="numeric"></td>
+			<td class="numeric"></td>
+			<td class="money"></td>
+			<td class="money"></td>
+		</tr>
+		<tr>
+			<th>Runs</th>
+			<td class="numeric"></td>
+			<th>Actual Success</th>
+			<td class="numeric"></td>
+			<td></td>
+			<td class="numeric"></td>
+			<td class="numeric"></td>
+			<td class="numeric"></td>
+			<td class="money"></td>
+			<td class="money"></td>
+		</tr>
+		<tr>
+			<th>Item Output per Run</th>
+			<td class="numeric"></td>
+			<th>Transport Cost</th>
+			<td class="money"></td>
+			<td colspan="6"></td>
+		</tr>
+	</table>
+
+	<table id="productionCosts">
+	
+		<tr>
+			<th colspan="100%">Production Costs</th>
+		</tr>
+		<tr>
+			<th>Input</th>
+			<th>Quantity</th>
+			<th>On Hand</th>
+			<th>Needed for runs</th>
+			<th>Need to Buy</th>
+			<th>m3</th>
+			<th>Import Cost</th>
+			<th>Purchase Price</th>
+			<th>Cost Per Run</th>
+			<th>Cost for project</th>
+		</tr>
+		<tr>
+			<td></td>
+			<td class="numeric"></td>
+			<td class="numeric"></td>
+			<td class="numeric"></td>
+			<td class="numeric"></td>
+			<td class="numeric"></td>
+			<td class="money"></td>
+			<td class="money"></td>
+			<td class="money"></td>
+			<td class="money"></td>
+		</tr>
+	</table>
+	<script>
+		
+	</script>
+</body>
+</html>

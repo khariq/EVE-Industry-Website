@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>IPM - Start New Project</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+</head>
+<body>
+
+    <h4>Details for {{ project.name }}</h4>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Quantity</th>
+        </tr>
+
+        {% for product in project.product_set.all %}
+        <tr>
+                <td>{{ product.getTypeName }}</td>
+                <td colspan="2">{{ product.quantity  }}</td>
+        </tr>
+            {% for item in product.getBillOfMaterials %}
+            <tr>
+                <td></td>
+                <td>{{ item.1 }}</td>
+                <td>{{ item.2 }}</td>
+            </tr>
+            {% endfor %}
+        {% endfor %}
+
+    </table>
+
+</body>
