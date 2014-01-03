@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49eaa7b6-0237-4c18-9648-132b450d9d3d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EVEIndustryProjectManagement/projects/templates/projects/addnew.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EVEIndustryProjectManagement/EVEAPI/dbTests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EVEIndustryProjectManagement/projects/templates/projects/details.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EVEIndustryProjectManagement/projects/templates/projects/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EVEIndustryProjectManagement/projects/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EVEIndustryProjectManagement/EVEIndustryProjectManagement/settings.py" afterPath="$PROJECT_DIR$/EVEIndustryProjectManagement/EVEIndustryProjectManagement/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EVEIndustryProjectManagement/EVEAPI/tests.py" afterPath="$PROJECT_DIR$/EVEIndustryProjectManagement/EVEAPI/tests.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EVEIndustryProjectManagement/EVEIndustryProjectManagement/urls.py" afterPath="$PROJECT_DIR$/EVEIndustryProjectManagement/EVEIndustryProjectManagement/urls.py" />
-    </list>
+    <list default="true" id="49eaa7b6-0237-4c18-9648-132b450d9d3d" name="Default" comment="" />
     <ignored path="EVE-Industry-Website.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="49eaa7b6-0237-4c18-9648-132b450d9d3d" time="1377202603739" ignored="false" />
+    <file path="/Dummy.txt" changelist="49eaa7b6-0237-4c18-9648-132b450d9d3d" time="1377269543433" ignored="false" />
     <file path="/BuildableItem.py" changelist="49eaa7b6-0237-4c18-9648-132b450d9d3d" time="1377100278939" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="49eaa7b6-0237-4c18-9648-132b450d9d3d" time="1377106956097" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/misc.xml" changelist="49eaa7b6-0237-4c18-9648-132b450d9d3d" time="1377100948552" ignored="false" />
@@ -53,27 +43,47 @@
         <entry file="file://$PROJECT_DIR$/EVEIndustryProjectManagement/projects/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="20" column="0" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eveLocalDB.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EVEIndustryProjectManagement/EVEAPI/eveLocalDB.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="40" selection-start="1569" selection-end="1569" vertical-scroll-proportion="1.8933649">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="details.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EVEIndustryProjectManagement/projects/templates/projects/details.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="7" selection-start="956" selection-end="956" vertical-scroll-proportion="-20.923077">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addnew.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EVEIndustryProjectManagement/projects/templates/projects/addnew.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="141" column="17" selection-start="4762" selection-end="4762" vertical-scroll-proportion="-11.115385">
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="tag#script#1;tag#head#0;tag#html#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="eveLocalDB.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EVEIndustryProjectManagement/EVEAPI/eveLocalDB.py">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EVEIndustryProjectManagement/projects/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="40" selection-start="1569" selection-end="1569" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="details.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/EVEIndustryProjectManagement/projects/templates/projects/details.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="7" selection-start="956" selection-end="956" vertical-scroll-proportion="0.6834171">
-              <folding />
+            <state line="26" column="0" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,10 +133,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="1176" />
+    <option name="x" value="191" />
+    <option name="y" value="282" />
+    <option name="width" value="1139" />
+    <option name="height" value="763" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -274,13 +284,13 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="editor" />
     <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="options.lastSelected" value="editor" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/EVEIndustryProjectManagement/EVEAPI/check.txt" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -485,18 +495,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="1176" extended-state="6" />
+    <frame x="191" y="282" width="1139" height="763" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32940018" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967825" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18468468" sideWeight="0.8321884" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27019498" sideWeight="0.76324505" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39842984" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39921337" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16781157" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23675497" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -566,13 +576,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/EVEIndustryProjectManagement/projects/views.py</url>
-          <line>28</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -582,9 +585,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/EVEIndustryProjectManagement/EVEAPI/evetypes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="18" selection-start="666" selection-end="684" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="12" column="18" selection-start="666" selection-end="684" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EVEIndustryProjectManagement/characters/templates/characters/addnew.htm">
@@ -594,16 +595,12 @@
     </entry>
     <entry file="file://C:/Python27/Lib/SocketServer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="154" column="0" selection-start="5999" selection-end="5999" vertical-scroll-proportion="0.23780487">
-          <folding />
-        </state>
+        <state line="154" column="0" selection-start="5999" selection-end="5999" vertical-scroll-proportion="0.23780487" />
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/django/utils/autoreload.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="12" selection-start="4403" selection-end="4403" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="112" column="12" selection-start="4403" selection-end="4403" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EVEIndustryProjectManagement/projects/urls.py">
@@ -615,60 +612,27 @@
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/django/core/handlers/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="198" column="0" selection-start="6568" selection-end="6568" vertical-scroll-proportion="0.3321976">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EVEIndustryProjectManagement/projects/templates/projects/addnew.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="0" selection-end="333" vertical-scroll-proportion="0.15858209">
-          <folding />
-        </state>
+        <state line="198" column="0" selection-start="6568" selection-end="6568" vertical-scroll-proportion="0.3321976" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EVEIndustryProjectManagement/projects/templates/projects/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="60" selection-start="510" selection-end="510" vertical-scroll-proportion="0.22854188">
-          <folding />
-        </state>
+        <state line="13" column="60" selection-start="510" selection-end="510" vertical-scroll-proportion="0.22854188" />
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/django/core/handlers/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="73" selection-start="5768" selection-end="5768" vertical-scroll-proportion="0.47029203">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EVEIndustryProjectManagement/projects/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="592" selection-end="592" vertical-scroll-proportion="0.34239677">
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="130" column="73" selection-start="5768" selection-end="5768" vertical-scroll-proportion="0.47029203" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EVEIndustryProjectManagement/EVEAPI/check.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="2" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EVEIndustryProjectManagement/EVEAPI/eveLocalDB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="40" selection-start="1569" selection-end="1569" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="3" column="2" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EVEIndustryProjectManagement/EVEAPI/dbTests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="26" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="3" column="26" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/django/utils/importlib.py">
@@ -681,15 +645,38 @@
     <entry file="file://$PROJECT_DIR$/EVEIndustryProjectManagement/projects/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="0" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EVEIndustryProjectManagement/projects/templates/projects/details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="7" selection-start="956" selection-end="956" vertical-scroll-proportion="0.6834171">
+        <state line="32" column="7" selection-start="956" selection-end="956" vertical-scroll-proportion="-20.923077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EVEIndustryProjectManagement/projects/templates/projects/addnew.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="17" selection-start="4762" selection-end="4762" vertical-scroll-proportion="-11.115385">
+          <folding>
+            <element signature="tag#script#1;tag#head#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EVEIndustryProjectManagement/projects/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EVEIndustryProjectManagement/EVEAPI/eveLocalDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="40" selection-start="1569" selection-end="1569" vertical-scroll-proportion="1.8933649">
           <folding />
         </state>
       </provider>
